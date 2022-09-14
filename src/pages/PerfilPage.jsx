@@ -35,8 +35,8 @@ export const PerfilPage = () => {
               fontFamily: "mada",
               fontWeight: "regular",
               color: "blanco.main",
-              fontSize: { xs: 20, md: 40 },
-              marginBottom: 10,
+              fontSize: { xs: 20, md: 30 },
+              marginBottom: 8,
             }}
           >
             Soy apasionada por el crear páginas web llenas de innovación.

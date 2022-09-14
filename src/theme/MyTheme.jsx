@@ -21,7 +21,7 @@ export const MyTheme = createTheme({
       main: "#000000",
     },
     blanco:{
-      main: "#EAEAEA",
+      main: "#FFF",
     }
   },
 });

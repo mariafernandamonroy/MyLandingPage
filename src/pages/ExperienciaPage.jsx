@@ -23,7 +23,7 @@ export const ExperienciaPage = () => {
           textAlign: "center",
         }}
       >
-        Estudios
+        Experiencia
       </Typography>
 
       <Grid container>
@@ -38,7 +38,6 @@ export const ExperienciaPage = () => {
               margin: 4,
               padding: 4,
               borderRadius: 5,
-              minHeight: { sm: 550 },
             }}
             elevation={8}
           >
