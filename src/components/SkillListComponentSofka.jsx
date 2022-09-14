@@ -11,7 +11,6 @@ export const SkillListSofka = ({ icon, skill }) => {
             fontFamily: "mada",
             fontWeight: "medium",
             fontSize: { xs: 18, md: 25 },
-            marginBottom: 2,
             marginLeft: { sx: 1, sm: 5 },
           }}
         >

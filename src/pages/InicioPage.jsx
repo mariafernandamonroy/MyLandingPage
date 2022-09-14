@@ -57,6 +57,11 @@ export const InicioPage = () => {
               color: "negro.main",
               textTransform: "none",
               fontWeight: "bold",
+              fontSize: { xs: 13, sm: 20 },
+              ":hover": {
+                backgroundColor: "rosado.main", // theme.palette.primary.main
+                color: "blanco.main",
+              },
             }}
             href="https://github.com/mariafernandamonroy"
             target="_blank"

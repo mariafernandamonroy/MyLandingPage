@@ -1,5 +1,4 @@
 import { Container, Grid, Paper, Typography } from "@mui/material";
-import React from "react";
 import { SkillListFimlm } from "../components/SkillListComponentFimlm";
 import { SkillListSofka } from "../components/SkillListComponentSofka";
 import { skillsFimlm } from "../database/SkillsDatabaseFimlm";
@@ -23,7 +22,7 @@ export const EstudioPage = () => {
           fontWeight: "bold",
           color: "azul.main",
           fontSize: { xs: 40, md: 60 },
-          marginBottom: 10,
+          marginBottom: 5,
           textAlign: "center",
         }}
       >
@@ -42,7 +41,7 @@ export const EstudioPage = () => {
               margin: 4,
               padding: 4,
               borderRadius: 5,
-              minHeight: { sm: 650 },
+              minHeight: { sm: 550 },
             }}
             elevation={8}
           >
@@ -95,7 +94,7 @@ export const EstudioPage = () => {
           sm={6}
         >
           <Paper
-            sx={{ margin: 4, padding: 4, borderRadius: 5, minHeight: { sm: 650 }, }}
+            sx={{ margin: 4, padding: 4, borderRadius: 5, minHeight: { sm: 550 }, }}
             elevation={8}
           >
             <Typography

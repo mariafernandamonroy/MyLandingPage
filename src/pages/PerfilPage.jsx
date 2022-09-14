@@ -1,7 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import react from "../assets/react.svg";
-import React from "react";
 
 export const PerfilPage = () => {
   return (
@@ -76,6 +75,11 @@ export const PerfilPage = () => {
               textTransform: "none",
               fontWeight: "bold",
               marginTop: 2,
+              fontSize: { xs: 13, sm: 20 },
+              ":hover": {
+                backgroundColor: "amarillo.main", // theme.palette.primary.main
+                color: "negro.main",
+              },
             }}
             href="https://github.com/mariafernandamonroy"
             target="_blank"
