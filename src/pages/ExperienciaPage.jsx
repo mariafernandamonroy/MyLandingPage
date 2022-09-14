@@ -106,15 +106,14 @@ export const ExperienciaPage = () => {
                 textAlign: "left",
               }}
             >
-              Tecnologías utilizadas:{" "}
-              <span id="spanExperience">
-                <ul>
-                  <li>OIPA</li>
-                  <li>XML</li>
-                  <li>Base de datos SQL Oracle</li>
-                </ul>
-              </span>
+              Tecnologías utilizadas: {/* <span id="spanExperience"> */}
+              {/* </span> */}
             </Typography>
+            <ul>
+              <li>OIPA</li>
+              <li>XML</li>
+              <li>Base de datos SQL Oracle</li>
+            </ul>
           </Paper>
         </Grid>
         <Grid

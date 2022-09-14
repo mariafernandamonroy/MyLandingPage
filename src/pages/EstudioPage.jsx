@@ -41,7 +41,7 @@ export const EstudioPage = () => {
               margin: 4,
               padding: 4,
               borderRadius: 5,
-              minHeight: { sm: 550 },
+              minHeight: { sm: 600 },
             }}
             elevation={8}
           >
@@ -94,7 +94,7 @@ export const EstudioPage = () => {
           sm={6}
         >
           <Paper
-            sx={{ margin: 4, padding: 4, borderRadius: 5, minHeight: { sm: 550 }, }}
+            sx={{ margin: 4, padding: 4, borderRadius: 5, minHeight: { sm: 600 }, }}
             elevation={8}
           >
             <Typography

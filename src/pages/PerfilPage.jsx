@@ -21,7 +21,7 @@ export const PerfilPage = () => {
             sx={{
               fontFamily: "mada",
               fontWeight: "bold",
-              color: "amarillo.main",
+              color: "naranja.main",
               fontSize: { xs: 40, md: 60 },
               marginBottom: 10,
               marginTop: 10,
