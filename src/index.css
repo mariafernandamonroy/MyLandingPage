@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400&display=swap');
+
+html{
+  font-family: 'Mada', sans-serif;
+}
+#foto{
+  width: 30%;
+  border: 1px solid white ;
+  box-shadow: 0px 0px 7px 1px white;
+  border-radius: 100%;
+}
+#skillImage{
+  width: 8%;
+  margin-right: 10px;
+}
