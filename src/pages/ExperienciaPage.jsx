@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Paper, Typography } from "@mui/material";
-import react from "../assets/react.svg";
+import experienceAvatar from "../assets/experienceAvatar.png";
 
 export const ExperienciaPage = () => {
   return (
@@ -115,13 +115,13 @@ export const ExperienciaPage = () => {
           </Paper>
         </Grid>
         <Grid
-          sx={{ display: {xs:"none", sm:"inherit"}, textAlign: { xs: "center", md: "right" }, marginTop: 10 }}
+          sx={{ display: {xs:"none", sm:"inherit"}, textAlign: { xs: "center", md: "right" },}}
           item
           xs={12}
           sm={6}
         >
           <Box>
-            <img src={react} />
+            <img id="experienceAvatar" src={experienceAvatar} />
           </Box>
         </Grid>
       </Grid>

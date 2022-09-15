@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import react from "../assets/react.svg";
+import profileAvatar from "../assets/profileAvatar.png";
 
 export const PerfilPage = () => {
   return (
@@ -49,24 +49,29 @@ export const PerfilPage = () => {
         </Grid>
         <Grid
           sx={{
-            width: { xs: 50 },
-            textAlign: { xs: "center", md: "right" },
-            marginTop: 10,
+            marginTop:{ xs: 2, sm: 15 },
+            textAlign: { xs: "center", sm: "right" },
           }}
           item
           xs={12}
           sm={6}
         >
-          <Box>
-            <img src={react} />
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img id="profileAvatar" src={profileAvatar} />
           </Box>
         </Grid>
       </Grid>
       <Grid
         sx={{
           textAlign: { xs: "center", md: "left" },
-          marginBottom: 12,
-          marginTop: 10,
+          marginBottom: 8,
+          marginTop:{ xs: 2, sm: 15 },
         }}
         item
         xs={12}

@@ -11,6 +11,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { menuTitles } from "../database/menu";
 import { MenuOptions } from "./MenuOptions";
 import { HamburgerMenu } from "./HamburgerMenu";
+import logo from "../assets/logo.png";
 
 export const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +28,10 @@ export const NavBar = () => {
     <AppBar position="sticky">
       <Container sx={{ backgroundColor: "azul.main" }} maxWidth="full">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          {/* <Box sx={{ display: { xs: "none", md: "block" }, mr: 1, justifyContent:"flex-start"}}> */}
+          <img id="logoNavBar" src={logo} />
+          {/* </Box> */}
+
           <Typography
             variant="h6"
             noWrap
@@ -46,7 +50,13 @@ export const NavBar = () => {
             María Fernanda Monroy
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+              justifyContent: "right",
+            }}
+          >
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -78,11 +88,14 @@ export const NavBar = () => {
               }}
             >
               {menuTitles.map((item) => (
-                <HamburgerMenu key={item} item={item} handle={handleCloseNavMenu} />
+                <HamburgerMenu
+                  key={item}
+                  item={item}
+                  handle={handleCloseNavMenu}
+                />
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
 
           {/* Configuración para pantalla grande */}
           <Box sx={{ display: { xs: "none", md: "flex" } }}>

@@ -1,5 +1,6 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
+import logo from "../assets/logo.png";
 
 export const Footer = () => {
   return (
@@ -8,18 +9,29 @@ export const Footer = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundcolor: "azul.main",
+        backgroundColor: "azul.main",
+        color:"blanco.main",
         paddingY: 2,
         paddingX: { xs: 5, md: 20 },
       }}
       maxWidth="full"
     >
-      <Box>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <img id="logoFooter" src={logo} />
+
         <Typography
           variant="h6"
           component="a"
           href="/"
-          sx={{ mt: 1, ml: 2, display: "flex", fontFamily: "Mada", fontWeight:"bold",color:"negro.main", textDecoration:"none"}}
+          sx={{
+            mt: 1,
+            ml:2,
+            display: "flex",
+            fontFamily: "Mada",
+            fontWeight: "bold",
+            color: "blanco.main",
+            textDecoration: "none",
+          }}
         >
           María Fernanda Monroy
         </Typography>

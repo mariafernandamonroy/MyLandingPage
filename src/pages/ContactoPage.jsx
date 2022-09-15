@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import { GitHub } from "@mui/icons-material";
 import { WhatsApp } from "@mui/icons-material";
-import avatarGlad from "../assets/avatarGlad.png";
+import contactAvatar from "../assets/contactAvatar.png";
 
 export const ContactoPage = () => {
   return (
@@ -10,7 +10,7 @@ export const ContactoPage = () => {
         flexGrow: 1,
         backgroundColor: "naranja.main",
         paddingY: 12,
-        paddingX: { xs: 5, md: 20 },
+        paddingX: { xs: 5, md: 50 },
       }}
       maxWidth="full"
     >
@@ -33,6 +33,7 @@ export const ContactoPage = () => {
             textAlign: { xs: "center", sm: "center" },
             display: "flex",
             flexDirection: "column",
+            
           }}
           item
           xs={12}
@@ -91,7 +92,7 @@ export const ContactoPage = () => {
           sm={6}
         >
           <Box>
-            <img id="avatarGlad" src={avatarGlad} />
+            <img id="contactAvatar" src={contactAvatar} />
           </Box>
         </Grid>
       </Grid>

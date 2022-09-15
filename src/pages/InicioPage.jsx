@@ -40,7 +40,7 @@ export const InicioPage = () => {
             variant="h1"
             sx={{
               fontFamily: "mada",
-              fontWeight: "semibold",
+              fontWeight: "bold",
               color: "rosado.main",
               fontSize: { xs: 46, md: 64 },
               marginBottom: 2,
