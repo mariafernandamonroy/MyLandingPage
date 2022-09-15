@@ -4,7 +4,7 @@ import { PortafolioCard } from "./PortafolioCard";
 
 export const PortafolioCarousel = () => {
   return (
-    <Carousel>
+    <Carousel animation='fade' duration={700}>
       {proyectos.map((proyecto) => (
         <PortafolioCard key={proyecto.id} proyecto={proyecto} />
       ))}

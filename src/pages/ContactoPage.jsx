@@ -1,6 +1,7 @@
-import { Button, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import { GitHub } from "@mui/icons-material";
 import { WhatsApp } from "@mui/icons-material";
+import avatarGlad from "../assets/avatarGlad.png";
 
 export const ContactoPage = () => {
   return (
@@ -28,51 +29,70 @@ export const ContactoPage = () => {
       </Typography>
       <Grid container>
         <Grid
-          sx={{ textAlign: { xs: "center", sm: "center" } }}
+          sx={{
+            textAlign: { xs: "center", sm: "center" },
+            display: "flex",
+            flexDirection: "column",
+          }}
           item
           xs={12}
-          sm={12}
+          sm={6}
         >
-          <Button
-            sx={{
-              m: 2,
-              borderRadius: 10,
-              backgroundColor: "blanco.main",
-              color: "azul.main",
-              fontWeight: "bold",
-              ":hover": {
-                backgroundColor: "azul.main", // theme.palette.primary.main
-                color: "blanco.main",
-              },
-            }}
-            size="large"
-            variant="contained"
-            startIcon={<GitHub />}
-            href="https://github.com/mariafernandamonroy"
-            target="_blank"
-          >
-            GitHub
-          </Button>
-          <Button
-            sx={{
-              m: 2,
-              borderRadius: 10,
-              backgroundColor: "blanco.main",
-              color: "azul.main",
-              fontWeight: "bold",
-              ":hover": {
-                backgroundColor: "verde.main", // theme.palette.primary.main
-                color: "blanco.main",
-              },
-            }}
-            size="large"
-            variant="contained"
-            startIcon={<WhatsApp />}
-            href="https://wa.me/573168927606?text=Hola, me gustaría contactarme contigo"
-            target="_blank"
-          >
-            WhatsApp
-          </Button>
+          <Box>
+            <Button
+              sx={{
+                m: 2,
+                paddingX:5,
+                borderRadius: 10,
+                backgroundColor: "blanco.main",
+                color: "azul.main",
+                fontWeight: "bold",
+                ":hover": {
+                  backgroundColor: "azul.main",
+                  color: "blanco.main",
+                },
+              }}
+              size="large"
+              variant="contained"
+              startIcon={<GitHub />}
+              href="https://github.com/mariafernandamonroy"
+              target="_blank"
+            >
+              GitHub
+            </Button>
+          </Box>
+          <Box>
+            <Button
+              sx={{
+                m: 2,
+                borderRadius: 10,
+                backgroundColor: "blanco.main",
+                color: "azul.main",
+                fontWeight: "bold",
+                ":hover": {
+                  backgroundColor: "verde.main",
+                  color: "blanco.main",
+                },
+              }}
+              size="large"
+              variant="contained"
+              startIcon={<WhatsApp />}
+              href="https://wa.me/573168927606?text=Hola, me gustaría contactarme contigo"
+              target="_blank"
+            >
+              WhatsApp
+            </Button>
+          </Box>
+        </Grid>
+        <Grid
+          sx={{ textAlign: { xs: "center", ms: "right" } }}
+          item
+          xs={12}
+          sm={6}
+        >
+          <Box>
+            <img id="avatarGlad" src={avatarGlad} />
+          </Box>
         </Grid>
       </Grid>
     </Container>

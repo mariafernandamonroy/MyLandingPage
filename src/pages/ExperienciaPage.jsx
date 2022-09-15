@@ -105,8 +105,7 @@ export const ExperienciaPage = () => {
                 textAlign: "left",
               }}
             >
-              Tecnologías utilizadas: {/* <span id="spanExperience"> */}
-              {/* </span> */}
+              Tecnologías utilizadas: 
             </Typography>
             <ul>
               <li>OIPA</li>
@@ -116,7 +115,7 @@ export const ExperienciaPage = () => {
           </Paper>
         </Grid>
         <Grid
-          sx={{ textAlign: { xs: "center", md: "right" }, marginTop: 10 }}
+          sx={{ display: {xs:"none", sm:"inherit"}, textAlign: { xs: "center", md: "right" }, marginTop: 10 }}
           item
           xs={12}
           sm={6}

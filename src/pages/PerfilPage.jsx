@@ -39,13 +39,20 @@ export const PerfilPage = () => {
               marginBottom: 8,
             }}
           >
-            Soy apasionada por el crear páginas web llenas de innovación.
-            Actualmente me encuentro muy interesada por aprender más de esta
-            área y mejorar mis conocimientos en diseño y desarrollo.
+            Soy una apasionada por el diseño y creación de páginas web, con
+            enfoque en el detalle y la calidad de mis páginas, siempre con una
+            visión innovadora a nuevas tecnologías. Actualmente me estoy en
+            búsqueda de mejorar mis habilidades y aprender nuevas tecnologías y
+            técnicas para ampliar mi portafolio de conocimientos en el
+            desarrollo frontend.
           </Typography>
         </Grid>
         <Grid
-          sx={{ textAlign: { xs: "center", md: "right" }, marginTop: 10 }}
+          sx={{
+            width: { xs: 50 },
+            textAlign: { xs: "center", md: "right" },
+            marginTop: 10,
+          }}
           item
           xs={12}
           sm={6}

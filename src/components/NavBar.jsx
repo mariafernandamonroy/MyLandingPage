@@ -78,7 +78,7 @@ export const NavBar = () => {
               }}
             >
               {menuTitles.map((item) => (
-                <HamburgerMenu item={item} handle={handleCloseNavMenu} />
+                <HamburgerMenu key={item} item={item} handle={handleCloseNavMenu} />
               ))}
             </Menu>
           </Box>
