@@ -6,7 +6,7 @@ export const proyectos = [
     stack: "React · JSX · Tailwind · LocalStorage · Hooks",
     link_preview: "#",
     link_github: "https://github.com/mariafernandamonroy/ToDoList-Diplomado",
-    imagen: "react.png",
+    imagen: "trella.gif",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const proyectos = [
     stack: "React · JSX · Tailwind · LocalStorage · Hooks",
     link_preview: "#",
     link_github: "https://github.com/mariafernandamonroy/HangmanGame-Diplomado",
-    imagen: "react.png",
+    imagen: "hangman.gif",
   },
   {
     id: 3,
