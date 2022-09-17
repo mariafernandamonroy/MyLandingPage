@@ -1,4 +1,3 @@
-import React from "react";
 import { ListItem, Typography } from "@mui/material";
 
 export const SkillListSofka = ({ icon, skill }) => {

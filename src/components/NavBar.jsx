@@ -28,9 +28,7 @@ export const NavBar = () => {
     <AppBar position="sticky">
       <Container sx={{ backgroundColor: "azul.main" }} maxWidth="full">
         <Toolbar disableGutters>
-          {/* <Box sx={{ display: { xs: "none", md: "block" }, mr: 1, justifyContent:"flex-start"}}> */}
           <img id="logoNavBar" src={logo} />
-          {/* </Box> */}
 
           <Typography
             variant="h6"

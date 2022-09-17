@@ -63,10 +63,11 @@ export const proyectos = [
   {
     id: 10,
     nombre: "Mi Portafolio",
-    descripcion: "Aplicación que nos permite crear un CRUD completo.",
+    descripcion:
+      "Aplicación que muestra mi perfil como desarrolladora fronted.",
     stack: "React Js · Material UI",
     link_preview: "#",
     link_github: "https://github.com/mariafernandamonroy/MyLandingPage",
-    imagen: "react.png",
+    imagen: "MaFe-Monroy.gif",
   },
 ];
