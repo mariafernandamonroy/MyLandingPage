@@ -21,7 +21,7 @@ export const PortafolioCard = ({ proyecto }) => {
             margin: 2,
             padding: 4,
             borderRadius: 5,
-            height: { xs: 200, sm: 450 },
+            height: { xs: 900, sm: 450 },
             maxWidth: { sm: 1000 },
             textAlign: "center",
             backgroundColor: "#EFEFEF",
