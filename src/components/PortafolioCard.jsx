@@ -21,7 +21,7 @@ export const PortafolioCard = ({ proyecto }) => {
             margin: 2,
             padding: 4,
             borderRadius: 5,
-            maxnHeight: { xs: 200, sm: 500 },
+            height: { xs: 200, sm: 450 },
             maxWidth: { sm: 1000 },
             textAlign: "center",
             backgroundColor: "#EFEFEF",
@@ -60,6 +60,7 @@ export const PortafolioCard = ({ proyecto }) => {
               </Typography>
               <Typography
                 sx={{
+                  marginTop:2,
                   textAlign: "center",
                 }}
               >
@@ -95,7 +96,7 @@ export const PortafolioCard = ({ proyecto }) => {
                       color: "blanco.main",
                     },
                   }}
-                  href="https://github.com/mariafernandamonroy"
+                  href={proyecto.link_preview}
                   target="_blank"
                   startIcon={<VisibilityIcon />}
                 >
@@ -116,7 +117,7 @@ export const PortafolioCard = ({ proyecto }) => {
                       color: "blanco.main",
                     },
                   }}
-                  href="https://github.com/mariafernandamonroy"
+                  href={proyecto.link_github}
                   target="_blank"
                   startIcon={<GitHubIcon />}
                 >

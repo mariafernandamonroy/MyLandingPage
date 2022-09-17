@@ -93,7 +93,7 @@ export const PerfilPage = () => {
                 color: "negro.main",
               },
             }}
-            href="https://github.com/mariafernandamonroy"
+            href="https://www.linkedin.com/in/mafe-monroy-gongora/"
             target="_blank"
             startIcon={<LinkedInIcon sx={{ color: "azul.main" }} />}
           >
